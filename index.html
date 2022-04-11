@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Form Validation Design</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+
+		<section class="fromSection">
+			<h1>Sign Up</h1>
+
+			<label>
+				<p>Full Name <span>*</span></p>
+				<input type="text" id="fullName" placeholder="Enter Your Full Nmae">
+				<h6><i class="fas fa-signature"></i>
+					Name most be at last 3 character long.</h6>
+			</label>
+
+			<label>
+				<p>Email Address <span>*</span></p>
+				<input type="text" id="emailAddress" placeholder="Enter Your Email Address">
+				<h6><i class="fas fa-envelope"></i> 
+					We don't send spam to our users.</h6>
+			</label>
+
+			<label>
+				<p>Password <span>*</span></p>
+				<input type="password" id="passeord" placeholder="Enter Your Password">
+				<h6><i class="fas fa-key"></i>
+					Password most be at last 6 character long.</h6>
+			</label>
+
+			<label>
+				<p>Conform Password <span>*</span></p>
+				<input type="password" id="cPasseord" placeholder="Enter Your Conform Password">
+				<h6><i class="fas fa-key"></i>
+					Conform Password match to password.</h6>
+			</label>
+			
+			<div class="show">
+				<label class="showPass">
+					<input id="checkBox" type="checkbox"> 
+					<span>Show Password</span>
+					<div></div>
+				</label>
+			</div>
+
+			<div class="submitBtn">
+				<button id="btn">Sign Up</button>
+			</div>
+
+			<p class="loginText"><a href="#">Login to your account?</a></p>
+		</section>
+
+	<script src="js/castom.js"></script>
+	</body>
+</html>
